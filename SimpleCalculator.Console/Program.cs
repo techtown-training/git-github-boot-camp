@@ -1,4 +1,5 @@
 ﻿using SimpleCalculatorLibrary;
+using System;
 
 namespace SimpleCalculator.Console
 {
@@ -15,23 +16,21 @@ namespace SimpleCalculator.Console
             {
                 case "add":
                     operation = new Addition();
-                    System.Console.WriteLine(calculator.Execute(operation, x, y));
                     break;
                 case "subtract":
-                    operation = new Subtraction();
-                    System.Console.WriteLine(calculator.Execute(operation, x, y));
+                    operation = new Addition();
                     break;
                 case "multiply":
                     operation = new Multiplication();
-                    System.Console.WriteLine(calculator.Execute(operation, x, y));
                     break;
                 case "divide":
                     operation = new Division();
-                    System.Console.WriteLine(calculator.Execute(operation, x, y));
                     break;
                 default:
-                    break;
+                    throw new ArgumentException("Operation unknown");
             }
+
+            System.Console.WriteLine(calculator.Execute(operation, x, y));
         }
     }
 }
