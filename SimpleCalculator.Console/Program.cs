@@ -6,23 +6,28 @@ namespace SimpleCalculator.Console
     {
         static void Main(string[] args)
         {
-            var operation = args[0];
+            var operationSign = args[0];
             var x = int.Parse(args[1]);
             var y = int.Parse(args[2]);
             var calculator = new Calculator();
-            switch (operation.ToLower())
+            IOperation operation;
+            switch (operationSign.ToLower())
             {
                 case "add":
-                    System.Console.WriteLine(calculator.Add(x, y));
+                    operation = new Addition();
+                    System.Console.WriteLine(calculator.Execute(operation, x, y));
                     break;
                 case "subtract":
-                    System.Console.WriteLine(calculator.Subtract(x, y));
+                    operation = new Subtraction();
+                    System.Console.WriteLine(calculator.Execute(operation, x, y));
                     break;
                 case "multiply":
-                    System.Console.WriteLine(calculator.Multiply(x, y));
+                    operation = new Multiplication();
+                    System.Console.WriteLine(calculator.Execute(operation, x, y));
                     break;
                 case "divide":
-                    System.Console.WriteLine(calculator.Divide(x, y));
+                    operation = new Division();
+                    System.Console.WriteLine(calculator.Execute(operation, x, y));
                     break;
                 default:
                     break;

@@ -1,3 +1,4 @@
+using Moq;
 using Xunit;
 
 namespace SimpleCalculatorLibrary.Tests
@@ -5,43 +6,15 @@ namespace SimpleCalculatorLibrary.Tests
     public class CalculatorTests
     {
         [Fact]
-        public void Add_ShouldReturnSum()
+        public void Execute_ShouldReturnOperationResult()
         {
             var calculator = new Calculator();
+            var operationMock = new Mock<IOperation>();
+            operationMock.Setup(x => x.Execute(1, 2)).Returns(20);
 
-            var result = calculator.Add(1, 2);
+            var result = calculator.Execute(operationMock.Object, 1, 2);
 
-            Assert.Equal(3, result);
-        }
-
-        [Fact]
-        public void Subtract_ShouldReturnDifference()
-        {
-            var calculator = new Calculator();
-
-            var result = calculator.Subtract(1, 2);
-
-            Assert.Equal(-1, result);
-        }
-
-        [Fact]
-        public void Multiply_ShouldReturnProduct()
-        {
-            var calculator = new Calculator();
-
-            var result = calculator.Multiply(5, 2);
-
-            Assert.Equal(10, result);
-        }
-
-        [Fact]
-        public void Divide_ShouldReturnQuotient()
-        {
-            var calculator = new Calculator();
-
-            var result = calculator.Divide(10, 2);
-
-            Assert.Equal(5, result);
+            Assert.Equal(20, result);
         }
     }
 }

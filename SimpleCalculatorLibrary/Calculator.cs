@@ -1,27 +1,10 @@
-﻿using System;
-
-namespace SimpleCalculatorLibrary
+﻿﻿namespace SimpleCalculatorLibrary
 {
     public class Calculator
     {
-        public int Add(int x, int y)
+        public int Execute(IOperation operation, int x, int y)
         {
-            return x + y;
-        }
-
-        public int Subtract(int x, int y)
-        {
-            return x - y;
-        }
-
-        public int Multiply(int x, int y)
-        {
-            return x * y;
-        }
-
-        public int Divide(int x, int y)
-        {
-            return x / y;
+            return operation.Execute(x, y);
         }
     }
 }
