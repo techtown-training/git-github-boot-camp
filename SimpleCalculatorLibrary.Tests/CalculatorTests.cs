@@ -23,5 +23,15 @@ namespace SimpleCalculatorLibrary.Tests
 
             Assert.Equal(-1, result);
         }
+
+        [Fact]
+        public void Multiply_ShouldReturnProduct()
+        {
+            var calculator = new Calculator();
+
+            var result = calculator.Multiply(5, 2);
+
+            Assert.Equal(10, result);
+        }
     }
 }
