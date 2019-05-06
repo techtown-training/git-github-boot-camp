@@ -13,5 +13,15 @@ namespace SimpleCalculatorLibrary.Tests
 
             Assert.Equal(3, result);
         }
+
+        [Fact]
+        public void Subtract_ShouldReturnDifference()
+        {
+            var calculator = new Calculator();
+
+            var result = calculator.Subtract(1, 2);
+
+            Assert.Equal(-1, result);
+        }
     }
 }
