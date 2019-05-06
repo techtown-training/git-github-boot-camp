@@ -7,30 +7,29 @@ namespace SimpleCalculator.Console
     {
         static void Main(string[] args)
         {
-            var operationSign = args[0];
+            var operation = GetOperation(args[0]);
             var x = int.Parse(args[1]);
             var y = int.Parse(args[2]);
             var calculator = new Calculator();
-            IOperation operation;
+
+            System.Console.WriteLine(calculator.Execute(operation, x, y));
+        }
+        
+        private static IOperation GetOperation(string operationSign)
+        {
             switch (operationSign.ToLower())
             {
                 case "add":
-                    operation = new Addition();
-                    break;
+                    return new Addition();
                 case "subtract":
-                    operation = new Addition();
-                    break;
+                    return new Addition();
                 case "multiply":
-                    operation = new Multiplication();
-                    break;
+                    return new Multiplication();
                 case "divide":
-                    operation = new Division();
-                    break;
+                    return new Division();
                 default:
                     throw new ArgumentException("Operation unknown");
             }
-
-            System.Console.WriteLine(calculator.Execute(operation, x, y));
         }
     }
 }
