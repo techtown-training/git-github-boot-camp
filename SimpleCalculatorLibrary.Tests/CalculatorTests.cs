@@ -33,5 +33,15 @@ namespace SimpleCalculatorLibrary.Tests
 
             Assert.Equal(10, result);
         }
+
+        [Fact]
+        public void Divide_ShouldReturnQuotient()
+        {
+            var calculator = new Calculator();
+
+            var result = calculator.Divide(10, 2);
+
+            Assert.Equal(5, result);
+        }
     }
 }
