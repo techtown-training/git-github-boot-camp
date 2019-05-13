@@ -21,3 +21,14 @@
 1. [Branching](./labs/1.2-basic-git-commands/07-branching.md)
 1. [Merging](./labs/1.2-basic-git-commands/08-merging.md)
 1. [Merge Conflicts](./labs/1.2-basic-git-commands/09-merge-conflicts.md)
+
+### Advanced Git Commands
+
+1. [Amending to Commits](./labs/1.3-advanced-git-commands/01-amending-to-commits.md)
+1. [Rebasing](./labs/1.3-advanced-git-commands/02-rebasing.md)
+1. [Interactive Rebasing](./labs/1.3-advanced-git-commands/03-interactive-rebasing.md)
+1. [Cherry-picking](./labs/1.3-advanced-git-commands/04-cherry-picking.md)
+1. [Manual Bisect](./labs/1.3-advanced-git-commands/05-manual-bisect.md)
+1. [Automatic Bisect](./labs/1.3-advanced-git-commands/06-automatic-bisect.md)
+1. [Aliases](./labs/1.3-advanced-git-commands/07-aliases.md)
+1. [Hooks](./labs/1.3-advanced-git-commands/08-hooks.md)
