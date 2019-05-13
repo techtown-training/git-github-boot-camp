@@ -21,6 +21,7 @@
 1. [Branching](./labs/1.2-basic-git-commands/07-branching.md)
 1. [Merging](./labs/1.2-basic-git-commands/08-merging.md)
 1. [Merge Conflicts](./labs/1.2-basic-git-commands/09-merge-conflicts.md)
+1. [Cloning](./labs/1.2-basic-git-commands/10-cloning.md)
 
 ### Advanced Git Commands
 
