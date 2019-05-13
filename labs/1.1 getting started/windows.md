@@ -5,7 +5,7 @@ Download [Git for Windows](https://gitforwindows.org/) and run the Installer:
 
 ![Git for Windows installer](../../img/git-for-windows-installer.png)
 
-You will see several prompts to configure Git for Windows. If you don’t know what to choose, just click Next without changing anything. The defaults are sensible and usually what you want.
+You will see several prompts to configure Git for Windows. If you don't know what to choose, just click Next without changing anything. The defaults are sensible and usually what you want.
 
 ## Chocolatey
 
