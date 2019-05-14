@@ -2,7 +2,7 @@
 
 ## Hands-On Labs
 
-### Getting Started
+### Getting Started with Git
 
 1. [Installing Git on Windows](./labs/1.1-getting-started/01-windows.md)
 1. [Installing Git on Mac OS X](./labs/1.1-getting-started/02-mac.md)
@@ -33,3 +33,20 @@
 1. [Automatic Bisect](./labs/1.3-advanced-git-commands/06-automatic-bisect.md)
 1. [Aliases](./labs/1.3-advanced-git-commands/07-aliases.md)
 1. [Hooks](./labs/1.3-advanced-git-commands/08-hooks.md)
+
+### Getting Started with GitHub
+
+1. [Starring Repositories](./labs/2.1-getting-started-with-github/01-starring.md)
+1. [Following users](./labs/2.1-getting-started-with-github/02-following.md)
+1. [Watching Repositories](./labs/2.1-getting-started-with-github/05-watching.md)
+1. [Commit email addresses](./labs/2.1-getting-started-with-github/04-commit-email-addresses.md)
+1. [Notifications](./labs/2.1-getting-started-with-github/05-notifications.md)
+
+### Options for Teams
+
+1. [Organization Accounts](./labs/2.2-options-for-teams/01-organization-accounts.md)
+
+### Working in Teams
+
+1. [GitHub Flow](./labs/2.3-working-with-teams/01-github-flow.md)
+1. [GitHub Pages](./labs/2.3-working-with-teams/02-github-pages.md)
