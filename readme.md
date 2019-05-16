@@ -50,3 +50,4 @@
 
 1. [GitHub Flow](./labs/2.3-working-with-teams/01-github-flow.md)
 1. [GitHub Pages](./labs/2.3-working-with-teams/02-github-pages.md)
+1. [Issues](./labs/2.3-working-with-teams/03-issues.md)
