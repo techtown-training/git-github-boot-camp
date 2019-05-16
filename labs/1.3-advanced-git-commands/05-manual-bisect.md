@@ -1,8 +1,10 @@
 # Manual Bisect
 
-For this section, we'll use a repository that contains some actual code.
+Go to the `bisect-project` folder in the `git-github-boot-camp` repository. If you haven't yet cloned it, clone it by running this command (in a directory that isn't a git repository):
 
-Clone the repository:
+```
+git clone git@github.com:techtown-training/git-github-boot-camp.git
+```
 
 Build the project:
 

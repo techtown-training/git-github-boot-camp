@@ -15,6 +15,10 @@ exit 0
 
 Save this file as a bash file (e.g. `bisect.sh`). On Windows, you’ll have to run this in Git Bash.
 
+Be sure to make the script executable (might not be necessary on Windows):
+
+![Make executable](../../img/git-bisect-auto-0.png)
+
 To start the bisect session, tell Git to start a bisect session and what the good and bad commits are:
 
 ![Starting bisect](../../img/git-bisect-auto-1.png)
