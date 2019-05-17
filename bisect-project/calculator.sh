@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 case "$2" in
     "plus")
         result=$(expr $1 + $3)
