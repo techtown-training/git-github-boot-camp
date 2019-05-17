@@ -1,5 +1,20 @@
 #!/usr/bin/env bash
 
+if [ $1 = "help" ]
+    then
+        echo "A simple bash calcaultor providing +, -, * and / operations."
+        echo "Usage: "
+        echo ""
+        echo "./calculator.sh <number> <operator> <number>"
+        echo ""
+        echo "Possible operators:"
+        echo "- plus"
+        echo "- minus"
+        echo "- times"
+        echo "- divided by"
+        exit 0
+fi
+
 case "$2" in
     "plus")
         result=$(expr $1 + $3)
@@ -19,4 +34,7 @@ case "$2" in
             echo "When trying a division, write the full 'divided by'"
             exit 1
         fi ;;
+    *)
+        echo "Please use 'plus', 'minus', 'times' or 'divided by' as operator"
+        exit 1
 esac
