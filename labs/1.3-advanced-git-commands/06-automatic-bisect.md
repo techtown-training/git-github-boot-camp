@@ -1,13 +1,13 @@
 # Automatic Bisect
 
-First, create a script that will return exit code -1 if the result is not correct:
+First, create a script that will return exit code 1 if the result is not correct:
 
 ```
-dotnet build SimpleCalculatorLibrary.sln
+#!/usr/bin/env bash
 
-if [ $(dotnet ./SimpleCalculator.Console/bin/Debug/netcoreapp2.1/SimpleCalculator.Console.dll subtract 5 1 | grep -c "Result was 4") -ne 1 ]
+if [ $(./bisect-project/calculator.sh 4 minus 2 | grep -c "4 minus 2 is 2") -ne 1 ]
 then
-    exit -1
+    exit 1
 fi
 
 exit 0
@@ -34,3 +34,9 @@ Git will now run the script for several commits. In the end, it will find the co
 Exit the bisect session:
  
 ![Exiting bisect](../../img/git-bisect-auto-4.png)
+
+You can remove the `bisect.sh` script now if you want:
+
+```
+rm ./bisect.sh
+```

@@ -1,17 +1,17 @@
-## Build
-
-```
-dotnet build SimpleCalculatorLibrary.sln
-```
-
 ## Usage
 
 ```
-dotnet ./SimpleCalculator.Console/bin/Debug/netcoreapp2.1/SimpleCalculator.Console.dll add 2 3
+./calculator.sh 2 plus 3
 ```
 
 Possible operations:
-- add
-- subtract
-- multiply
-- divide
+- plus
+- minus
+- times
+- divided by
+
+Also possible:
+
+```
+./calculator.sh help
+```
