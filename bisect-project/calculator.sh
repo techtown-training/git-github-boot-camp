@@ -6,4 +6,7 @@ case "$op" in
     "plus")
         result=$(expr $num1 + $num2)
         echo "$num1 plus $num2 is $result" ;;
+    "minus")
+        result=$(expr $num1 - $num2)
+        echo "$num1 minus $num2 is $result" ;;
 esac
