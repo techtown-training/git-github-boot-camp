@@ -12,6 +12,9 @@ if [ $1 = "help" ]
         echo "- minus"
         echo "- times"
         echo "- divided by"
+        echo ""
+        echo "Example:"
+        echo "  ./calculator.sh 4 times 5"
         exit 0
 fi
 
