@@ -9,4 +9,7 @@ case "$op" in
     "minus")
         result=$(expr $num1 - $num2)
         echo "$num1 minus $num2 is $result" ;;
+    "times")
+        result=$(expr $num1 \* $num2)
+        echo "$num1 times $num2 is $result" ;;
 esac
