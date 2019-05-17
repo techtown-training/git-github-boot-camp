@@ -15,5 +15,8 @@ case "$2" in
             then
                 result=$(expr $1 / $4)
                 echo "$1 divided by $4 is $result"
+        else
+            echo "When trying a division, write the full 'divided by'"
+            exit 1
         fi ;;
 esac
