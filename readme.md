@@ -9,6 +9,7 @@
 1. [Installing Git on Linux](./labs/1.1-getting-started/03-linux.md)
 1. [GUI Clients](./labs/1.1-getting-started/04-gui-clients.md)
 1. [Registering at GitHub](./labs/1.1-getting-started/05-registering-at-github.md)
+1. [Setting up SSH](./labs/1.1-getting-started/06-setting-up-ssh.md)
 
 ### Basic Git Commands
 
