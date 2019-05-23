@@ -13,9 +13,9 @@ fi
 exit 0
 ```
 
-Save this file as a bash file (e.g. `bisect.sh`). On Windows, you’ll have to run this in Git Bash.
+Save this file as a Bash file (e.g., `bisect.sh`). On Windows, you’ll have to run this in Git Bash.
 
-Be sure to make the script executable (might not be necessary on Windows):
+Be sure to make the script executable (this might not be necessary on Windows):
 
 ![Make executable](../../img/git-bisect-auto-0.png)
 
