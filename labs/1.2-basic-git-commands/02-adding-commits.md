@@ -1,6 +1,6 @@
 # Adding Commits
 
-First create some files in your repository. You can use your favorite editor, our just create some empty files from the command line:
+First, create some files in your repository. You can use your favorite editor or just create some empty files from the command line:
 
 ![Creating files](../../img/create-files.png)
  
@@ -16,7 +16,7 @@ Check the status again:
 
 ![Git status](../../img/git-status-2.png)
  
-**Untracked** files are files that are not yet "tracked" by Git, i.e. they are not yet part of your repository.
+**Untracked** files are files that are not yet "tracked" by Git. In other words, they are not yet part of your repository.
 
 Once a file is tracked, any changes will be noticed by Git. But these changes will not automatically be staged (as we will see later).
 
