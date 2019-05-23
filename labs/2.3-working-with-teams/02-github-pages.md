@@ -1,6 +1,6 @@
 # GitHub Pages
 
-First, create a `docs/` folder and add a new Markdown file:
+First, create a `docs/` folder and add a new markdown file:
 
 ![Creating docs](../../img/github-pages-0.png)
 
@@ -10,7 +10,7 @@ Go to the Settings tab of your repository:
 
 ![Settings](../../img/github-pages-1.png)
 
-Scroll down to the "GitHub Pages" section:
+Scroll down to the GitHub Pages section:
 
 ![GitHub Pages](../../img/github-pages-2.png)
 
@@ -24,7 +24,7 @@ After the page reloads, click the button to choose a theme:
 
 ![GitHub Pages theme](../../img/github-pages-4.png)
 
-Choose a theme and click the green "Select theme" button:
+Choose a theme and click the green Select Theme button:
 
 ![GitHub Pages theme selection](../../img/github-pages-5.png)
 
