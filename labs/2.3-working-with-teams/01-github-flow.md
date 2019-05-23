@@ -12,7 +12,7 @@ Push this branch to the remote:
 
 ![Push](../../img/githubflow-3.png)
 
-In the repository on GitHub, click the "New pull request" button:
+In the repository on GitHub, click the New Pull Request button:
 
 ![New pull request](../../img/githubflow-4.png)
 
@@ -24,7 +24,7 @@ Verify that your commits are listed:
 
 ![Pull request details](../../img/githubflow-6.png)
 
-Add a descriptive message and click the green "Create pull request" button.
+Add a descriptive message and click the green Create Pull Request button.
 
 You will be taken to the pull request page:
 
@@ -38,6 +38,6 @@ When you're done, merge the branch into master (whether you fast-forward or not 
 
 ![Merge](../../img/githubflow-8.png)
 
-Push the master branch to the remote. The status of the pull request is now "Merged":
+Push the master branch to the remote. The status of the pull request is now Merged:
 
 ![Merged pull request](../../img/githubflow-9.png)
