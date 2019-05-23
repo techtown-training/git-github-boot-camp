@@ -1,10 +1,10 @@
 # Commit Email Addresses
 
-To hide your personal email address, go to settings:
+To hide your personal email address, go to Settings:
 
 ![Settings](../../img/github-settings.png)
 
-Choose emails:
+Choose Emails:
 
 ![Emails](../../img/github-settings-email.png)
 
