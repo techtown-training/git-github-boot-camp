@@ -1,10 +1,10 @@
 # Creating a Branch
 
-Create and checkout a new branch:
+Create and check out a new branch:
 
 ![Git branch](../../img/git-branch.png)
  
-Add some commits by changing files, adding and committing them, like we did previously. You should be able to end up with a log like this:
+Add some commits by changing, adding and committing files, like we did previously. You should end up with a log like this:
 
 ![Git log](../../img/git-log-2.png)
  
