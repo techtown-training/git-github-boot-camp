@@ -6,7 +6,7 @@ Create a `commit-msg` file in the `.git/hooks` folder:
 
 ![Create hook file](../../img/git-hook-1.png)
  
-Put this bash script in the file:
+Put this Bash script in the file:
 
 ```
 #!/bin/bash
@@ -20,7 +20,7 @@ then
 fi
 ```
 
-Be sure to make the script executable (might not be necessary on Windows):
+Be sure to make the script executable (this might not be necessary on Windows):
 
 ![Make hook file executable](../../img/git-hook-2.png)
 
