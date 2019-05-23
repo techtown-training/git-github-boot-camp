@@ -1,6 +1,6 @@
 # Starring Repositories
 
-Find a repository you find interesting and click the star button:
+Find a repository you find interesting and click the Star button:
 
 ![Starring](../../img/github-starring-1.png)
 
