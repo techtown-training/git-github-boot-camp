@@ -1,7 +1,7 @@
 # Installing Git on Windows
 
 ## Installer
-Download [Git for Windows](https://gitforwindows.org/) and run the Installer:
+Download [Git for Windows](https://gitforwindows.org/) and run the installer:
 
 ![Git for Windows installer](../../img/git-for-windows-installer.png)
 
@@ -17,7 +17,7 @@ choco install git
 
 ## Verify
 
-You should now see a Git folder in your Start Menu:
+You should now see a Git folder in your Start menu:
 
 ![Git for Windows in the Start menu](../../img/git-for-windows-in-start-menu.png)
 
