@@ -1,6 +1,6 @@
-# Cherry-picking
+# Cherry-Picking
 
-Checkout master, create a new branch and check out the new branch:
+Check out master, create a new branch and check out the new branch:
 
 ![Preparation](../../img/git-cherry-pick-1.png)
 
