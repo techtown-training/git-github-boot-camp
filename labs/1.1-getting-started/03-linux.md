@@ -2,13 +2,13 @@
 
 ## Installer
 
-If you're running a Debian based Linux distribution, run this command at the terminal:
+If you're running a Debian-based Linux distribution, run this command at the terminal:
 
 ```
 sudo apt install git-all
 ```
 
-If you're Linux distribution is RPM-based, run this command:
+If your Linux distribution is RPM-based, run this command:
 
 ```
 sudo dnf install git-all
