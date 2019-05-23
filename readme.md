@@ -29,7 +29,7 @@
 1. [Amending to Commits](./labs/1.3-advanced-git-commands/01-amending-to-commits.md)
 1. [Rebasing](./labs/1.3-advanced-git-commands/02-rebasing.md)
 1. [Interactive Rebasing](./labs/1.3-advanced-git-commands/03-interactive-rebasing.md)
-1. [Cherry-picking](./labs/1.3-advanced-git-commands/04-cherry-picking.md)
+1. [Cherry-Picking](./labs/1.3-advanced-git-commands/04-cherry-picking.md)
 1. [Manual Bisect](./labs/1.3-advanced-git-commands/05-manual-bisect.md)
 1. [Automatic Bisect](./labs/1.3-advanced-git-commands/06-automatic-bisect.md)
 1. [Aliases](./labs/1.3-advanced-git-commands/07-aliases.md)
@@ -38,9 +38,9 @@
 ### Getting Started with GitHub
 
 1. [Starring Repositories](./labs/2.1-getting-started-with-github/01-starring.md)
-1. [Following users](./labs/2.1-getting-started-with-github/02-following.md)
+1. [Following Users](./labs/2.1-getting-started-with-github/02-following.md)
 1. [Watching Repositories](./labs/2.1-getting-started-with-github/05-watching.md)
-1. [Commit email addresses](./labs/2.1-getting-started-with-github/04-commit-email-addresses.md)
+1. [Commit Email Addresses](./labs/2.1-getting-started-with-github/04-commit-email-addresses.md)
 1. [Notifications](./labs/2.1-getting-started-with-github/05-notifications.md)
 
 ### Options for Teams
