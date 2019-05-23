@@ -1,7 +1,7 @@
 # Installing Git on Mac OS X
 
 ## Installer
-Use [the installer](https://git-scm.com/download/mac) you can find on the official Git website.
+Use [the installer](https://git-scm.com/download/mac) found on the official Git website.
 
 ## Homebrew
 
