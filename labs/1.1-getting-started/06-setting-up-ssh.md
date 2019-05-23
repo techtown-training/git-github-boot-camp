@@ -14,11 +14,11 @@ You will have to:
 - enter a password
 - confirm the password
 
-A password isn't actually required but is recommended.
+A password isn't actually required, but it's recommended.
 
 ## Add the key to ssh-agent
 
-Check if ssh-agent is running or start it if it isn't:
+Check if ssh-agent is running. Start it if it isn't:
 
 ![Starting ssh-agent](../../img/git-ssh-2.png)
 
@@ -47,7 +47,7 @@ Host *
 
 Copy the contents of your **public** key to the clipboard. You can open the file with a text editor.
 
-Make sure it's the public key (a file that ends in `.pub`). It's contents should look like this:
+Make sure it's the public key (a file that ends in `.pub`). Its contents should look like this:
 
 ![Public key](../../img/git-ssh-4.png)
 
@@ -65,7 +65,7 @@ Click on the green "New SSH key" button:
 
 ![New SSH key](../../img/git-ssh-7.png)
 
-Give the key a name to describe the key and paste the contents of the public:
+Give the key a descriptive name and paste the contents of the public key:
 
 ![Pasting key](../../img/git-ssh-8.png)
 
