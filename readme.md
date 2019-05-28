@@ -39,7 +39,7 @@
 
 1. [Starring Repositories](./labs/2.1-getting-started-with-github/01-starring.md)
 1. [Following Users](./labs/2.1-getting-started-with-github/02-following.md)
-1. [Watching Repositories](./labs/2.1-getting-started-with-github/05-watching.md)
+1. [Watching Repositories](./labs/2.1-getting-started-with-github/03-watching.md)
 1. [Commit Email Addresses](./labs/2.1-getting-started-with-github/04-commit-email-addresses.md)
 1. [Notifications](./labs/2.1-getting-started-with-github/05-notifications.md)
 
