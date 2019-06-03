@@ -11,7 +11,7 @@ Put this Bash script in the file:
 ```
 #!/bin/bash
 
-pattern="#[0-9]{4}: \w{1,}"
+pattern="#[0-9]{4}: .{1,}"
 
 if [[ ! $(cat $1) =~ $pattern ]]
 then
