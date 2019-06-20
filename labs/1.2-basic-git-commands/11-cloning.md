@@ -17,3 +17,5 @@ Now, clone the repository. You can find the correct URL in GitHub:
 To clone the repository, run the `git clone` command with that URL:
 
 ![Git clone](../../img/git-clone-4.png)
+
+Make sure you use your preferred protocol (HTTPS or SSH).

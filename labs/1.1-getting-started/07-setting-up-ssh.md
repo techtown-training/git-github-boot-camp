@@ -1,5 +1,8 @@
 # Setting Up SSH
 
+This is no longer the recommended approach by GitHub. Only execute
+these steps if you prefer SSH.
+
 ## Generate an SSH key
 
 Generate a new public/private key pair:
