@@ -26,8 +26,8 @@
 1. [Merging](./labs/1.2-basic-git-commands/09-merging.md)
 1. [Merge Conflicts](./labs/1.2-basic-git-commands/10-merge-conflicts.md)
 1. [Cloning](./labs/1.2-basic-git-commands/11-cloning.md)
-1. [Revert](./labs/1.2-basic-git-commands/12-revert.md)
-1. [Reset](./labs/1.2-basic-git-commands/13-reset.md)
+1. [Reset](./labs/1.2-basic-git-commands/12-reset.md)
+1. [Revert](./labs/1.2-basic-git-commands/13-revert.md)
 
 ### Advanced Git Commands
 
