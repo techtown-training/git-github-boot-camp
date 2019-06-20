@@ -13,6 +13,7 @@
 
 ### Basic Git Commands
 
+1. [Config](./labs/1.2-basic-git-commands/00-config.md)
 1. [Initializing](./labs/1.2-basic-git-commands/01-initializing.md)
 1. [Adding Commits](./labs/1.2-basic-git-commands/02-adding-commits.md)
 1. [Adding a Remote](./labs/1.2-basic-git-commands/03-adding-a-remote.md)
