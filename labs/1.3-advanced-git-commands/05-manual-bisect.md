@@ -3,7 +3,7 @@
 If you haven't yet cloned it, clone this repository by running this command (in a directory that isn't a Git repository):
 
 ```
-git clone git@github.com:techtown-training/git-github-boot-camp.git
+git clone https://github.com/techtown-training/git-github-boot-camp.git
 ```
 
 Switch to the `bisect-project` folder:
