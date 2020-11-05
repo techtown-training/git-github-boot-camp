@@ -3,8 +3,10 @@
 Create a branch that will lead to a merge conflict:
 - `git checkout -b feature3`
 - Edit a file
+- create a new commit with the edited file
 - `git checkout master`
 - Edit the same line of the same file, but with a different edit
+- create a new commit with the edited file
 - `git merge feature3`
 
 This should lead to the following output:
